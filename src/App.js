@@ -20,6 +20,7 @@ import ShowHide from "./Component/Example/ShowHide";
 import FormHandler from "./Component/Example/FormHandler";
 import ProjectList from "./Component/Projects/ProjectList";
 import BirthdayRemainder from "./Component/Projects/BirthdayRemainder/BirthdayRemainder";
+import Tour from "./Component/Projects/Tour/Tour";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
             path="projects/birthdayremainder"
             element={<BirthdayRemainder />}
           />
+          <Route path="projects/tour" element={<Tour />} />
         </Routes>
       </BrowserRouter>
     </div>
