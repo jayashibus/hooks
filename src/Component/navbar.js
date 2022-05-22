@@ -29,6 +29,9 @@ const Navbar = () => {
         <Link to="/login" className="item">
           Login
         </Link>
+        <Link to="/projects" className="item">
+          Projects
+        </Link>
         <div className="right menu">
           <div className="item">
             <div className="ui transparent icon input">

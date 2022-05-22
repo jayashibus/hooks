@@ -18,6 +18,8 @@ import Login from "./Component/Login/Login";
 import FetchApi from "./Component/Example/FetchApi";
 import ShowHide from "./Component/Example/ShowHide";
 import FormHandler from "./Component/Example/FormHandler";
+import ProjectList from "./Component/Projects/ProjectList";
+import BirthdayRemainder from "./Component/Projects/BirthdayRemainder/BirthdayRemainder";
 
 function App() {
   return (
@@ -41,6 +43,11 @@ function App() {
           <Route path="/example/formhandler" element={<FormHandler />} />
           <Route path="api" element={<GetApi />} />
           <Route path="login" element={<Login />} />
+          <Route path="projects" element={<ProjectList />} />
+          <Route
+            path="projects/birthdayremainder"
+            element={<BirthdayRemainder />}
+          />
         </Routes>
       </BrowserRouter>
     </div>
