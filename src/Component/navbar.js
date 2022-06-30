@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux/es/exports";
 
 const Navbar = () => {
+  const count = useSelector((state) => state.counter.value);
+
   return (
     <div style={{ marginBottom: "10px" }}>
       <div className="ui pointing menu">
@@ -32,6 +35,9 @@ const Navbar = () => {
         <Link to="/projects" className="item">
           Projects
         </Link>
+        <Link to="/redux" className="item">
+          Redux
+        </Link>
         <div className="right menu">
           <div className="item">
             <div className="ui transparent icon input">
@@ -41,7 +47,7 @@ const Navbar = () => {
           </div>
           <div className="right menu">
             <a href="/#" className="ui item">
-              Logout
+              Logout {count}
             </a>
           </div>
         </div>

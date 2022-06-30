@@ -11,7 +11,7 @@ import Example from "./Component/Example/Example";
 import ChangeTitle from "./Component/Example/ChangeTitle";
 import UseStateArray from "./Component/Example/UseStateArray";
 import MultipleState from "./Component/Example/MultipleState";
-import Counter from "./Component/Example/Counter";
+//import Counter from "./Component/Example/Counter";
 import DeleteList from "./Component/Example/DeleteList";
 import GetApi from "./Component/Api/GetApi";
 import Login from "./Component/Login/Login";
@@ -21,6 +21,9 @@ import FormHandler from "./Component/Example/FormHandler";
 import ProjectList from "./Component/Projects/ProjectList";
 import BirthdayRemainder from "./Component/Projects/BirthdayRemainder/BirthdayRemainder";
 import Tour from "./Component/Projects/Tour/Tour";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Redux from "./Component/Redux/Redux";
+import { Counter } from "./Component/Redux/features/counter/Counter";
 
 function App() {
   return (
@@ -50,6 +53,7 @@ function App() {
             element={<BirthdayRemainder />}
           />
           <Route path="projects/tour" element={<Tour />} />
+          <Route path="redux" element={<Counter />} />
         </Routes>
       </BrowserRouter>
     </div>

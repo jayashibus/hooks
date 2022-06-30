@@ -29,14 +29,18 @@ const Login = () => {
         console.log(res.data);
 
         if (res.data.code === 200) {
-          setIsloggedin(true);
+          console.log(res.data.code);
+          setIsloggedin(!loggedin);
         }
       });
   };
 
   if (loggedin) {
+    console.log("Successfull login");
+    console.log(loggedin);
     return <div>Logged in</div>;
   } else {
+    console.log(loggedin);
     return (
       <div>
         <div className="ui placeholder segment">
