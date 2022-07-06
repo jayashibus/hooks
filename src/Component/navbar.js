@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux/es/exports";
+import { useSelector } from "react-redux/es/exports";
 
 const Navbar = () => {
   const count = useSelector((state) => state.counter.value);
@@ -37,6 +37,9 @@ const Navbar = () => {
         </Link>
         <Link to="/redux" className="item">
           Redux
+        </Link>
+        <Link to="/test" className="item">
+          Test
         </Link>
         <div className="right menu">
           <div className="item">

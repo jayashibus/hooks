@@ -22,8 +22,8 @@ import ProjectList from "./Component/Projects/ProjectList";
 import BirthdayRemainder from "./Component/Projects/BirthdayRemainder/BirthdayRemainder";
 import Tour from "./Component/Projects/Tour/Tour";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Redux from "./Component/Redux/Redux";
 import { Counter } from "./Component/Redux/features/counter/Counter";
+import Test from "./Component/Test/test";
 
 function App() {
   return (
@@ -54,6 +54,7 @@ function App() {
           />
           <Route path="projects/tour" element={<Tour />} />
           <Route path="redux" element={<Counter />} />
+          <Route path="test" element={<Test />} />
         </Routes>
       </BrowserRouter>
     </div>

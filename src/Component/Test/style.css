@@ -1,0 +1,60 @@
+@keyframes blink {
+  0% {
+    background-color: #85ffbd;
+  }
+  15% {
+    background: radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 233, 202, 1) 100%
+    );
+  }
+  30% {
+    bbackground-color: #ffdee9;
+  }
+  45% {
+    background-color: #fbda61;
+  }
+  60% {
+    background-color: #74ebd5;
+  }
+  75% {
+    background-color: #fee140;
+  }
+  100% {
+    background-color: #74ebd5;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    background-color: #85ffbd;
+  }
+  15% {
+    background: radial-gradient(
+      circle,
+      rgba(238, 174, 202, 1) 0%,
+      rgba(148, 233, 202, 1) 100%
+    );
+  }
+  30% {
+    bbackground-color: #ffdee9;
+  }
+  45% {
+    background-color: #fbda61;
+  }
+  60% {
+    background-color: #74ebd5;
+  }
+  75% {
+    background-color: #fee140;
+  }
+  100% {
+    background-color: #74ebd5;
+  }
+}
+
+.Changecolor {
+  animation: blink 10s inifinite;
+  -webkit-animation: blink 10s infinite;
+}
