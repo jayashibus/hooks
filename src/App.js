@@ -24,6 +24,7 @@ import Tour from "./Component/Projects/Tour/Tour";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Counter } from "./Component/Redux/features/counter/Counter";
 import Test from "./Component/Test/test";
+import List from "./Component/Listing/list";
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
           <Route path="projects/tour" element={<Tour />} />
           <Route path="redux" element={<Counter />} />
           <Route path="test" element={<Test />} />
+          <Route path="list" element={<List />} />
         </Routes>
       </BrowserRouter>
     </div>
