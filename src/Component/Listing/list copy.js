@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import data from "./data";
-import { useSelector } from "react-redux";
 
 const styles = {
   show: {
@@ -12,7 +11,6 @@ const styles = {
 };
 
 const list = () => {
-  const count = useSelector((state) => state.counter.value);
   const [datas, setDatas] = useState(data);
   const [toggle, setToggle] = useState(false);
 
@@ -44,7 +42,7 @@ const list = () => {
 
   return (
     <div>
-      <h1>Listing here Redux count here {count}</h1>
+      <h1>Listing here</h1>
       <input type="text" onChange={onChangeHandler} />
       {datas.map((item) => (
         <div>
@@ -59,6 +57,13 @@ const list = () => {
           </button>
         </div>
       ))}
+      <div>
+        {" "}
+        flkfd fddjh jdsfhj <div>dhdh dh</div>{" "}
+      </div>
+      <div>
+        dskhfjkdh <div>Hide</div>
+      </div>
     </div>
   );
 };
