@@ -25,6 +25,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Counter } from "./Component/Redux/features/counter/Counter";
 import Test from "./Component/Test/test";
 import List from "./Component/Listing/list";
+import Pipeline from "./Component/Pipeline/Pipeline";
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
           <Route path="redux" element={<Counter />} />
           <Route path="test" element={<Test />} />
           <Route path="list" element={<List />} />
+          <Route path="pipeline" element={<Pipeline />} />
         </Routes>
       </BrowserRouter>
     </div>
