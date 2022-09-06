@@ -2,6 +2,8 @@ import React from "react";
 import "./Pipeline.css";
 import data from "./data";
 import Card from "./Card";
+import IconButton from "@mui/material/IconButton";
+import Badge from "@mui/material/Badge";
 
 const Pipeline = () => {
   return (
@@ -15,7 +17,17 @@ const Pipeline = () => {
                 <div className="card_image">
                   <img src={item.image} />
                 </div>
-                <div className="card_content">
+                <div
+                  className={`card_content${
+                    item.status === "Scheduled"
+                      ? "_green"
+                      : item.status === "Intro Scheduled"
+                      ? "_yellow"
+                      : item.status === "Failed"
+                      ? "_red"
+                      : ""
+                  }`}
+                >
                   <h2 className="card_title">{item.name}</h2>
                   <p className="card_text">{item.description}</p>
                   <h4 className="card_title">Round : {item.round}</h4>

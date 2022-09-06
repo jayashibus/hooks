@@ -97,6 +97,18 @@ img {
   padding: 1rem;
   background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
 }
+.card_content_green {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #08a46e 40%, #8defc3 100%);
+}
+.card_content_yellow {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #c6b411 40%, #f4f005 100%);
+}
+.card_content_red {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #e70707 40%, #f58989 100%);
+}
 
 .card_title {
   color: #ffffff;

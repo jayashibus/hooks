@@ -29,7 +29,7 @@ import Pipeline from "./Component/Pipeline/Pipeline";
 
 function App() {
   return (
-    <div>
+    <div style={{ backgroundColor: "white" }}>
       <BrowserRouter>
         <Navbar />
         <Routes>
