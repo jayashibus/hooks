@@ -21,7 +21,8 @@ const Pipeline = () => {
                   className={`card_content${
                     item.status === "Scheduled"
                       ? "_green"
-                      : item.status === "Intro Scheduled"
+                      : item.status === "Intro Scheduled" ||
+                        item.status === "New Lead"
                       ? "_yellow"
                       : item.status === "Failed"
                       ? "_red"
