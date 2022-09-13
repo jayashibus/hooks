@@ -14,6 +14,21 @@ const Pipeline = () => {
           {data.map((item) => (
             <li className="cards_item">
               <div className="card">
+                <div
+                  class={`ui ${
+                    item.status === "Scheduled"
+                      ? "green"
+                      : item.status === "Intro Scheduled" ||
+                        item.status === "New Lead"
+                      ? "yellow"
+                      : item.status === "Failed"
+                      ? "red"
+                      : "pink"
+                  } right corner label`}
+                  style={{ width: "auto", padding: "8px" }}
+                >
+                  {item.id}
+                </div>
                 <div className="card_image">
                   <img src={item.image} />
                 </div>

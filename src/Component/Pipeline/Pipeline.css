@@ -132,3 +132,18 @@ img {
   margin-top: 35px;
   text-align: center;
 }
+.ui.pink.label {
+  border-color: #ef8d9c !important;
+}
+
+.ui.green.label {
+  border-color: #08a46e !important;
+}
+
+.ui.yellow.label {
+  border-color: #c6b411 !important;
+}
+
+.ui.red.label {
+  border-color: #e70707 !important;
+}
