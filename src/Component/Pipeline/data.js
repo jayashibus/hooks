@@ -10,14 +10,13 @@ export default [
       "Technical round went well, they provided home assignment. Need to submit in before end of saturday.",
   },
   {
-    id: 3,
-    name: "GovWallet",
-    status: "Failed",
-    round: 3,
-    image:
-      "https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/8d4976d1046d7f2a70ecc94c51550abc.png",
+    id: 13,
+    name: "ACCSS Digital",
+    status: "New Lead",
+    round: 1,
+    image: "https://accss.asia/wp-content/uploads/2021/03/blue-header.png",
     description:
-      "I sent a message to consultant, he updated me that the hiring team not going to proceed further.",
+      "Got the objective type questionnaire  in PHP, jQuery, Mysql. I submitted, Waiting for the result",
   },
 
   {

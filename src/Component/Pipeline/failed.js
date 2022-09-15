@@ -28,4 +28,14 @@ export default [
     description:
       "Got feedback from HR. Not able to explain the Jest framework.",
   },
+  {
+    id: 3,
+    name: "GovWallet",
+    status: "Failed",
+    round: 3,
+    image:
+      "https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/8d4976d1046d7f2a70ecc94c51550abc.png",
+    description:
+      "I sent a message to consultant, he updated me that the hiring team not going to proceed further.",
+  },
 ];
