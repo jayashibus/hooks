@@ -7,7 +7,7 @@ export default [
     image:
       "https://aichat.com/wp-content/uploads/2018/08/aichat2-green-600.png",
     description:
-      "Technical round went well, they provided home assignment. Need to submit in before end of saturday.",
+      "Technical round went well, Home accessment done successfullly. Waiting for the result.",
   },
   {
     id: 13,
