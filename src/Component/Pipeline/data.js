@@ -12,7 +12,7 @@ export default [
   {
     id: 13,
     name: "ACCSS Digital",
-    status: "New Lead",
+    status: "Failed",
     round: 1,
     image: "https://accss.asia/wp-content/uploads/2021/03/blue-header.png",
     description:
