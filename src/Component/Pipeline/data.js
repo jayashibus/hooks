@@ -1,22 +1,22 @@
 export default [
   {
+    id: 14,
+    name: "RigelSoft",
+    status: "New Lead",
+    round: 1,
+    image: "https://pbs.twimg.com/media/EtslwKXVkAMqUpq.jpg",
+    description:
+      "Intro call finished. If their client shortlisted then will get a call for next round ",
+  },
+  {
     id: 12,
     name: "AI Chat",
-    status: "Scheduled",
+    status: "Waiting for result",
     round: 2,
     image:
       "https://aichat.com/wp-content/uploads/2018/08/aichat2-green-600.png",
     description:
       "Technical round went well, Home accessment done successfullly. Waiting for the result. ",
-  },
-  {
-    id: 13,
-    name: "ACCSS Digital",
-    status: "Failed",
-    round: 1,
-    image: "https://accss.asia/wp-content/uploads/2021/03/blue-header.png",
-    description:
-      "Got the objective type questionnaire  in PHP, jQuery, Mysql. I submitted, Waiting for the result",
   },
 
   {

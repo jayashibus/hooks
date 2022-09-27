@@ -38,4 +38,13 @@ export default [
     description:
       "I sent a message to consultant, he updated me that the hiring team not going to proceed further.",
   },
+  {
+    id: 13,
+    name: "ACCSS Digital",
+    status: "Failed",
+    round: 1,
+    image: "https://accss.asia/wp-content/uploads/2021/03/blue-header.png",
+    description:
+      "Got the objective type questionnaire  in PHP, jQuery, Mysql. I submitted, Waiting for the result",
+  },
 ];
