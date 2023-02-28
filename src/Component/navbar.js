@@ -47,6 +47,9 @@ const Navbar = () => {
         <Link to="/pipeline" className="item">
           Pipeline
         </Link>
+        <Link to="/360" className="item">
+          360
+        </Link>
         <div className="right menu">
           <div className="item">
             <div className="ui transparent icon input">

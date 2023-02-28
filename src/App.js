@@ -26,6 +26,7 @@ import { Counter } from "./Component/Redux/features/counter/Counter";
 import Test from "./Component/Test/test";
 import List from "./Component/Listing/list";
 import Pipeline from "./Component/Pipeline/Pipeline";
+import ThreeSixty from "./Component/ThreeSixty/ThreeSixty";
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
           <Route path="test" element={<Test />} />
           <Route path="list" element={<List />} />
           <Route path="pipeline" element={<Pipeline />} />
+          <Route path="360" element={<ThreeSixty />} />
         </Routes>
       </BrowserRouter>
     </div>
