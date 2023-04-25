@@ -50,6 +50,13 @@ const Navbar = () => {
         <Link to="/360" className="item">
           360
         </Link>
+        <Link to="/assignment" className="item">
+          Assignment
+        </Link>
+        <Link to="/motionframe" className="item">
+          MotionFrame
+        </Link>
+
         <div className="right menu">
           <div className="item">
             <div className="ui transparent icon input">

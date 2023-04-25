@@ -27,6 +27,8 @@ import Test from "./Component/Test/test";
 import List from "./Component/Listing/list";
 import Pipeline from "./Component/Pipeline/Pipeline";
 import ThreeSixty from "./Component/ThreeSixty/ThreeSixty";
+import Assignment from "./Component/Assignment/assignment";
+import MotionFrame from "./Component/MotionFrame/motionFrame";
 
 function App() {
   return (
@@ -61,6 +63,8 @@ function App() {
           <Route path="list" element={<List />} />
           <Route path="pipeline" element={<Pipeline />} />
           <Route path="360" element={<ThreeSixty />} />
+          <Route path="assignment" element={<Assignment />} />
+          <Route path="motionframe" element={<MotionFrame />} />
         </Routes>
       </BrowserRouter>
     </div>
