@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 const inactiveShadow = "0px 0px 0px rgba(0,0,0,0.8)";
 
-function useRaisedShadow(MotionValue) {
+function useRaisedShadow(value: MotionValue) {
   const boxShadow = useMotionValue(inactiveShadow);
 
   useEffect(() => {

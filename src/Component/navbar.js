@@ -53,8 +53,11 @@ const Navbar = () => {
         <Link to="/assignment" className="item">
           Assignment
         </Link>
-        <Link to="/motionframe" className="item">
-          MotionFrame
+        <Link to="/tailwind" className="item">
+          TailWind
+        </Link>
+        <Link to="/daisyui" className="item">
+          DaisyUI
         </Link>
 
         <div className="right menu">

@@ -1,6 +1,7 @@
 import React, { createContext } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
+import "./index.css";
 import Home from "./Component/home";
 import Message from "./Component/messages";
 import Friends from "./Component/friends";
@@ -29,6 +30,8 @@ import Pipeline from "./Component/Pipeline/Pipeline";
 import ThreeSixty from "./Component/ThreeSixty/ThreeSixty";
 import Assignment from "./Component/Assignment/assignment";
 import MotionFrame from "./Component/MotionFrame/motionFrame";
+import TailWind from "./Component/Tailwind/tailWind";
+import DaisyUi from "./Component/DaisyUI/daisyUi";
 
 function App() {
   return (
@@ -65,6 +68,8 @@ function App() {
           <Route path="360" element={<ThreeSixty />} />
           <Route path="assignment" element={<Assignment />} />
           <Route path="motionframe" element={<MotionFrame />} />
+          <Route path="tailwind" element={<TailWind />} />
+          <Route path="daisyui" element={<DaisyUi />} />
         </Routes>
       </BrowserRouter>
     </div>
