@@ -2,6 +2,7 @@ import React, { createContext } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import "./index.css";
+//import "./Appscss.scss";
 import Home from "./Component/home";
 import Message from "./Component/messages";
 import Friends from "./Component/friends";

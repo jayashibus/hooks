@@ -12,41 +12,52 @@ const TailWind = () => {
     // More people...
   ];
   return (
-    <div className="bg-white py-24 sm:py-32">
-      <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
-        <div className="max-w-2xl">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Meet our leadership
+    <div>
+      <div class="min-h-screen flex items-center justify-center bg-blue-400">
+        <div class="bg-white p-16 rounded shadow-2x1 w-1/2">
+          <h2 class="text-3xl font-bold mb-10 text-gray-800">
+            Create Your Account
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae
-            elementum enim vitae ullamcorper suspendisse.
-          </p>
+
+          <form class="space-y-5">
+            <div>
+              <label class="block mb-1 font-bold text-gray-500">Name</label>
+              <input
+                type="text"
+                class="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500"
+              />
+            </div>
+
+            <div>
+              <label class="block mb-1 font-bold text-gray-500">Email</label>
+              <input
+                type="email"
+                class="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500"
+              />
+            </div>
+
+            <div>
+              <label class="block mb-1 font-bold text-gray-500">Password</label>
+              <input
+                type="password"
+                class="w-full border-2 border-gray-200 p-3 rounded outline-none focus:border-purple-500"
+              />
+            </div>
+
+            <div class="flex items-center">
+              <input type="checkbox" id="agree" />
+              <label for="agree" class="ml-2 text-gray-700 text-sm">
+                I agree to the terms and privacy.
+              </label>
+            </div>
+
+            <div>
+              <button class="block w-full bg-yellow-400 hover:bg-yellow-300 p-4 rounded text-yellow-900 hover:text-yellow-800 transition duration-300">
+                Sign Up
+              </button>
+            </div>
+          </form>
         </div>
-        <ul
-          role="list"
-          className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
-        >
-          {people.map((person) => (
-            <li key={person.name}>
-              <div className="flex items-center gap-x-6">
-                <img
-                  className="h-16 w-16 rounded-full"
-                  src={person.imageUrl}
-                  alt=""
-                />
-                <div>
-                  <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">
-                    {person.name}
-                  </h3>
-                  <p className="text-sm font-semibold leading-6 text-indigo-600">
-                    {person.role}
-                  </p>
-                </div>
-              </div>
-            </li>
-          ))}
-        </ul>
       </div>
     </div>
   );
