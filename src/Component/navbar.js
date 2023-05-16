@@ -38,9 +38,7 @@ const Navbar = () => {
         <Link to="/redux" className="item">
           Redux
         </Link>
-        <Link to="/test" className="item">
-          Test
-        </Link>
+
         <Link to="/list" className="item">
           List
         </Link>
@@ -58,6 +56,9 @@ const Navbar = () => {
         </Link>
         <Link to="/daisyui" className="item">
           DaisyUI
+        </Link>
+        <Link to="/unittest" className="item">
+          Unit Test
         </Link>
 
         <div className="right menu">

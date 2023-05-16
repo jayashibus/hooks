@@ -25,7 +25,6 @@ import BirthdayRemainder from "./Component/Projects/BirthdayRemainder/BirthdayRe
 import Tour from "./Component/Projects/Tour/Tour";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Counter } from "./Component/Redux/features/counter/Counter";
-import Test from "./Component/Test/test";
 import List from "./Component/Listing/list";
 import Pipeline from "./Component/Pipeline/Pipeline";
 import ThreeSixty from "./Component/ThreeSixty/ThreeSixty";
@@ -33,6 +32,7 @@ import Assignment from "./Component/Assignment/assignment";
 import MotionFrame from "./Component/MotionFrame/motionFrame";
 import TailWind from "./Component/Tailwind/tailWind";
 import DaisyUi from "./Component/DaisyUI/daisyUi";
+import UnitTest from "./Component/UnitTest/unitTest";
 
 function App() {
   return (
@@ -63,14 +63,13 @@ function App() {
           />
           <Route path="projects/tour" element={<Tour />} />
           <Route path="redux" element={<Counter />} />
-          <Route path="test" element={<Test />} />
           <Route path="list" element={<List />} />
           <Route path="pipeline" element={<Pipeline />} />
           <Route path="360" element={<ThreeSixty />} />
           <Route path="assignment" element={<Assignment />} />
-          <Route path="motionframe" element={<MotionFrame />} />
           <Route path="tailwind" element={<TailWind />} />
           <Route path="daisyui" element={<DaisyUi />} />
+          <Route path="unittest" element={<UnitTest />} />
         </Routes>
       </BrowserRouter>
     </div>
